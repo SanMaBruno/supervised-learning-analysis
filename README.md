@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # supervised-learning-analysis
 Análisis de aprendizaje supervisado 
 =======
@@ -12,7 +11,7 @@ Este proyecto realiza un análisis de datos utilizando algoritmos de aprendizaje
 El proyecto está organizado de la siguiente manera:
 
 
-
+```plaintext
 supervised-learning-analysis/
 │
 ├── data/                        # Directorio para los datos (no se sube a GitHub)
@@ -34,7 +33,7 @@ supervised-learning-analysis/
 │
 ├── .gitignore                   # Archivos y carpetas ignoradas por Git
 └── README.md                    # Descripción del proyecto
-
+```
 
 ## Descripción del Análisis
 
