@@ -88,4 +88,3 @@ Las contribuciones son bienvenidas. Por favor, abre un "issue" o un "pull reques
 
 ## Autor
 Desarrollado por [Bruno San Martín](https://github.com/SanMaBruno).
->>>>>>> 349cc41 (Initial commit: Add data preprocessing, feature engineering, and model training scripts)
