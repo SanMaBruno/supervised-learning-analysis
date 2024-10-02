@@ -1,5 +1,3 @@
-# src/models.py
-
 import joblib
 import os
 

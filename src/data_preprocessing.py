@@ -1,5 +1,3 @@
-# src/data_preprocessing.py
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -25,13 +23,9 @@ def load_breast_cancer_data(file_path):
 
     return X, y
 
-def preprocess_data(X, y):
-    # Dividir los datos en conjunto de entrenamiento y prueba (80% entrenamiento, 20% prueba)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
+def preprocess_data(X):
     # Estandarizar las características
     scaler = StandardScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
+    X_scaled = scaler.fit_transform(X)
 
-    return X_train, X_test, y_train, y_test
+    return X_scaled
