@@ -30,6 +30,7 @@ supervised-learning-analysis/
 │   ├── feature_engineering.py   # Ingeniería de características
 │   ├── models.py                # Definición y entrenamiento de modelos
 │   ├── evaluation.py            # Funciones para evaluación de modelos
+│   ├── unsupervised_analysis.py # Análisis no supervisado
 │
 ├── .gitignore                   # Archivos y carpetas ignoradas por Git
 └── README.md                    # Descripción del proyecto
